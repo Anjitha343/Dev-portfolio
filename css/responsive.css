@@ -1,0 +1,161 @@
+/*Ipad pro*/
+@media (min-width:992px) and(max-width:1199px){
+h2{
+    font-size:42px;
+}
+    section{
+    min-height: auto;
+    padding: 150px 25px;
+}
+}
+/*Ipad */
+@media (min-width:768px) and(max-width:991px){
+h1{
+    font-size: 46px;
+}
+h2{
+    font-size: 38px;
+}
+    .mobile-only{
+    display:block;
+}
+nav ul li{
+    display:none;
+}
+
+header{
+    height: auto;
+    padding: 150px 0px;
+}
+section{
+    min-height: auto;
+    padding:100px 25px;
+}
+.s-03 .title h2,
+.s04 .title h2{
+    padding:0px;
+}
+.s-03 img,
+.s-04 img{
+    width:100%;
+    padding:0px;
+}
+}
+/*Mobile landscape*/
+@media (min-width:560px) and(max-width:767px){
+header{
+    height: auto;
+    padding: 150px 0px;
+}
+nav ul li{
+    display:none;
+}
+.mobile-only{
+    display: block;
+}
+h1{
+    font-size:32px;
+    line-height: 1.2;
+    padding-bottom: 25px;
+}
+h2{
+    font-size: 32px;
+}
+header .content-side{
+    position: absolute;
+    transform: unset;
+    text-align: center;
+    bottom: 50px;
+    width: 100%;
+}
+header .content-side svg{
+    display: none;
+}
+.s-02 .row{
+    display: block;
+}
+.s-02 .box{
+    margin-bottom: 25px;
+    background: rgba(255,255,255,.15);
+    padding: 25px 0px;
+}
+.s-03 .title h2{
+    padding: 0px 25px;
+}
+section{
+    min-height: auto;
+    padding: 50px 0px;
+}
+.s-03 .title h2::after,
+.s-03 .title.title-line-spacing h2::after
+.s-04 .title h2::after{
+    top: -35px;
+    height: 1px;
+    width:100%;
+}
+.s-03 img,
+.s-04 img{
+    width: 100%;
+    padding: 0px 25px;
+}
+.s-05{
+    padding: 150px 0px;
+}
+}
+/*mobile*/
+@media only screen and (max-width:550px){
+    nav ul li{
+        display:none;
+    }
+    .mobile-only{
+        display: block;
+    }
+    h1{
+        font-size:32px;
+        line-height: 1.2;
+        padding-bottom: 25px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    header .content-side{
+        position: absolute;
+        transform: unset;
+        text-align: center;
+        bottom: 50px;
+        width: 100%;
+    }
+    header .content-side svg{
+        display: none;
+    }
+    .s-02 .row{
+        display: block;
+    }
+    .s-02 .box{
+        margin-bottom: 25px;
+        background: rgba(255,255,255,.15);
+        padding: 25px 0px;
+    }
+    .s-03 .title h2{
+        padding: 0px 25px;
+    }
+    section{
+        min-height: auto;
+        padding: 50px 0px;
+    }
+    .s-03 .title h2::after,
+    .s-03 .title.title-line-spacing h2::after
+    .s-04 .title h2::after{
+        top: -35px;
+        height: 1px;
+        width:100%;
+    }
+    .s-03 img,
+    .s-04 img{
+        width: 100%;
+        padding: 0px 25px;
+    }
+    .s-05{
+        padding: 150px 0px;
+    }
+}
